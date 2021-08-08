@@ -1,0 +1,169 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+}
+.header
+{
+    position: sticky;
+    top: 0px;
+    background-color: rgb(0, 0, 0);
+    height: 90px;
+    width: 100%;
+}
+.logo
+{
+    display: inline;
+    margin-left: 50px;
+}
+.logo > a >  img
+{
+    width: 125px;
+    height: 90px;
+}
+.navigation
+{
+    margin-top: 35px;
+    margin-right: 150px;
+    float: right;
+}
+.navigation > ul > li
+{
+    display: inline;
+    padding-right: 30px;
+}
+.navigation > ul > li > a
+{
+    color: darkorange;
+}
+.navigation > ul > li > a:hover
+{
+    color: rgb(137, 139, 0);
+}
+.active
+{
+    text-decoration: underline;
+}
+.hero-section
+{
+    background-image: url(img/Background.png);
+    height: 530px;
+    overflow: hidden;
+}
+.inside
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+}
+.inner-hero-section
+{
+    background-color: rgb(226, 183, 126);
+    border-radius: 20px;
+    height: max-content;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 200px;
+    padding-bottom: 80px;
+}
+.inner-hero-section > img
+{
+    margin-top: 25px;
+    width: 100px;
+    height: 100px;
+}
+.inner-hero-section > h1
+{
+    margin-top: 50px;
+}
+.inner-hero-section > p
+{
+    margin-top: 40px;
+}
+.inner-hero-section:hover
+{
+    background-color: rgb(255, 208, 147);
+}
+.inner-inner-hero-section
+{
+    background-color: rgb(226, 183, 126);
+    border-radius: 20px;
+    height: max-content;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-bottom: 80px;
+}
+.inner-inner-hero-section > p
+{
+    margin-top: 40px;
+}
+.inner-inner-hero-section:hover
+{
+    background-color: rgb(255, 208, 147);
+}
+.inner-inner-hero-section > img
+{
+    margin-top: 25px;
+    width: 100px;
+    height: 100px;
+}
+.inner-inner-hero-section > h1
+{
+    margin-top: 50px;
+}
+.inner-inner-inner-hero-section > p
+{
+    margin-top: 40px;    
+}
+.inner-inner-inner-hero-section
+{
+    background-color: rgb(226, 183, 126);
+    border-radius: 20px;
+    height: max-content;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-right: 200px;
+    padding-bottom: 80px;
+}
+.inner-inner-inner-hero-section:hover
+{
+    background-color: rgb(255, 208, 147);
+}
+.inner-inner-inner-hero-section > img
+{
+    margin-top: 25px;
+    width: 100px;
+    height: 100px;
+}
+.inner-inner-inner-hero-section > h1
+{
+    margin-top: 50px;
+}
+.firstsection
+{
+    background-color: chartreuse;
+    height: 300px;
+}
+.secondsection
+{
+    background-color: rgb(28, 141, 141);
+    height: 250px;
+}
+.thirdsection
+{
+    background-color: rgb(231, 181, 16);
+    height: 300px;
+}
+.footer
+{
+    background-color: darkslategrey;
+    height: 50px;
+}

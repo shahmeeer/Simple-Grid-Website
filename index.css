@@ -70,6 +70,7 @@
     margin-bottom: 25px;
     margin-left: 200px;
     padding-bottom: 80px;
+    transition: width 2s;
 }
 .inner-hero-section > img
 {
@@ -88,7 +89,7 @@
 .inner-hero-section:hover
 {
     background-color: rgb(255, 208, 147);
-    transition: width 2s;
+    width: 500px;
 }
 .inner-inner-hero-section
 {

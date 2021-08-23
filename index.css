@@ -39,7 +39,6 @@
 .navigation > ul > li > a
 {
     color: darkorange;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s ease-in-out;
 }
 .navigation > ul > li > a:hover
 {
@@ -89,6 +88,7 @@
 .inner-hero-section:hover
 {
     background-color: rgb(255, 208, 147);
+    transition: width 2s;
 }
 .inner-inner-hero-section
 {

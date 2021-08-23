@@ -70,8 +70,7 @@
     margin-bottom: 25px;
     margin-left: 200px;
     padding-bottom: 80px;
-    transition-property: "width";
-    transition-duration: 3s;
+    transition-duration: 3000ms;
 }
 .inner-hero-section > img
 {
@@ -90,7 +89,6 @@
 .inner-hero-section:hover
 {
     background-color: rgb(255, 208, 147);
-    width: 500px;
 }
 .inner-inner-hero-section
 {

@@ -43,6 +43,7 @@
 .navigation > ul > li > a:hover
 {
     color: rgb(137, 139, 0);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .active
 {

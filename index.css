@@ -70,7 +70,8 @@
     margin-bottom: 25px;
     margin-left: 200px;
     padding-bottom: 80px;
-    transition-duration: 3000ms;
+    transition-duration: 1000ms;
+    cursor: pointer;
 }
 .inner-hero-section > img
 {

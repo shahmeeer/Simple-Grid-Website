@@ -71,6 +71,7 @@
     margin-left: 200px;
     padding-bottom: 80px;
     transition-duration: 1000ms;
+    transition-property: none;
     cursor: pointer;
 }
 .inner-hero-section > img
